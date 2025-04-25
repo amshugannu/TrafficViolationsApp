@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556959639139",
+    "project_id": "snapfine-680ee",
+    "storage_bucket": "snapfine-680ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556959639139:android:c9fa6cac216a86990e7a56",
+        "android_client_info": {
+          "package_name": "com.example.snapfine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDATDAwZiKgeag3UPNxB82alxs0NuFM_TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

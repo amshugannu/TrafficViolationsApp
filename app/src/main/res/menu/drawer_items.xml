@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/yourcomplaints"
+            android:title="Your Complaints"
+            />
+
+        <item android:id="@+id/payfines"
+            android:title="Pay Fines"
+            />
+    </group>
+
+    <group>
+
+        <item android:id="@+id/Contact"
+            android:title="Contact"
+            />
+
+        <item android:id="@+id/faqs"
+            android:title="FAQs"
+            />
+
+        <item android:id="@+id/privacypolicy"
+            android:title="Privacy Policy"
+            />
+    </group>
+</menu>

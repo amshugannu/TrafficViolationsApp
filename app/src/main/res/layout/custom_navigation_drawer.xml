@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Drawer Header -->
+    <include layout="@layout/drawer_header" />
+
+    <!-- Menu items list -->
+    <ListView
+        android:id="@+id/drawer_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <!-- Logout Button at Bottom -->
+    <Button
+        android:id="@+id/logout_btn_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:textAllCaps="true"
+        android:backgroundTint="#000000"
+        android:textColor="@android:color/white"
+        android:layout_margin="15dp"
+        android:padding="8dp"
+        android:onClick="logout"/>
+</LinearLayout>
